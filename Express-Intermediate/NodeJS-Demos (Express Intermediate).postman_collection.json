@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "62d1e6cd-f984-441d-b8ad-e0cb081ea122",
+		"name": "NodeJS-Demos (Express Intermediate)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET Aircrafts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3030/aircraft",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"aircraft"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Aircraft",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"message\": \"\",\n\t\"data\": \"12345\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"json"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
