@@ -12,3 +12,5 @@ https://harveywilliams.net/blog/installing-iisnode
 	</authorization>
 </system.web>
 ```
+
+https://github.com/tjanczuk/iisnode/issues/87 - how to get windows auth username in NodeJS
