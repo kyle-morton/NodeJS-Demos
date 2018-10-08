@@ -9,7 +9,10 @@ app.use(bodyParser.json());
 // apply routes from aircraft router
 app.use('/aircraft', aircraftRouter);
 
+
+
 //start listening on port
-app.listen(3030);
-console.log('listening on port 3030');
+let port = process.env.PORT ? process.env.PORT : 3030;
+app.listen(port);
+console.log('listening on port ' + port);
 
