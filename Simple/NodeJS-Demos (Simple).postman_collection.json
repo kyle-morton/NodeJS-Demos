@@ -1,0 +1,26 @@
+{
+	"info": {
+		"_postman_id": "bf7a7194-8c04-4032-85e2-0341f9302ca5",
+		"name": "NodeJS-Demos (Simple)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000"
+				}
+			},
+			"response": []
+		}
+	]
+}

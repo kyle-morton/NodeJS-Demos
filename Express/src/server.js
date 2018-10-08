@@ -5,9 +5,7 @@ let express = require('express'),
 // parse application/json
 app.use(bodyParser.json())
 
-/////
 // Define routes 
-////
 
  //GET to localhost:3000
 app.get('/', (req, res) => {
@@ -31,3 +29,4 @@ app.post('/json', (req, res) => {
 //start listening on port
 app.listen(3000);
 console.log('listening on port 3000');
+
