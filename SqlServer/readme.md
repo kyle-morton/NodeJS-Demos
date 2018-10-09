@@ -1,0 +1,1 @@
+This is a simple demo of connecting to a local SQL Server db using SQL Server authentication.
